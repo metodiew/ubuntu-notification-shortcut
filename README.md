@@ -9,6 +9,6 @@ Make the file executable with
 `sudo chmod +x ubuntu-notification-shortcut`
 
 Open the `Settings > Keyboard > Keyboard Shortcodes > Custom Shortoces`
-Set the name of the command, place the path to file, e.g. ~./Software/ubuntu-notification-shortcut and select the keyboard combination
+Set the name of the command, place the path to file, e.g. `~/Software//ubuntu-notification-shortcut` and select the keyboard combination
 
 That's it.

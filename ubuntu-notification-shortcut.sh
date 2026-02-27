@@ -26,8 +26,9 @@ fi
 state=$(gsettings get "$schema" "$key")
 
 if [[ "$state" == "true" ]]; then
-  gsettings set "$schema" "$key" false
   notify-send "Notifications: disabled"
+  sleep 0.1
+  gsettings set "$schema" "$key" false
 else
   gsettings set "$schema" "$key" true
   notify-send "Notifications: enabled"
